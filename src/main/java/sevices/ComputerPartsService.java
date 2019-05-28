@@ -1,8 +1,8 @@
 package sevices;
 
-import models.ComputerPart;
 import dao.CompPartsDAO;
 import dao.MySQLDao;
+import models.ComputerPart;
 import models.ComputerPartWrapper;
 
 import javax.persistence.PersistenceException;

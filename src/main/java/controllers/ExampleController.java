@@ -4,15 +4,12 @@ import models.ComputerPart;
 import models.ComputerPartWrapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.servlet.ModelAndView;
 import sevices.ComputerPartsService;
 import utils.Constants;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class ExampleController {

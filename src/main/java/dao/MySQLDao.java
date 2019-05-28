@@ -4,7 +4,6 @@ import models.ComputerPart;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
-import org.springframework.transaction.annotation.Transactional;
 import utils.Constants;
 import utils.HibernateSessionFactoryUtil;
 
